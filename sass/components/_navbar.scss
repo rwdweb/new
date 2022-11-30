@@ -1,0 +1,101 @@
+nav{
+    padding: 23px 0 !important;
+    ul{
+        li{
+            a{
+                transition: 0.5s;
+                font-size: 16px;
+                position: relative;
+                color: #000 !important;
+                &:hover{
+                    color: #de4644 !important;
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    bottom: 0;
+                    left: 12%;
+                    background-color: #de4644;
+                    opacity: 0;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                }
+                &:hover::after{
+                    width: 23px;
+                    opacity: 1;
+                }
+                &::before{
+                    position: absolute;
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    bottom: -4px;
+                    left: 12%;
+                    background-color: #de4644;
+                    opacity: 0;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                }
+                &:hover::before{
+                    width: 11px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .menu_icon{
+        transition: 0.5s;
+        cursor: pointer;
+        i{
+            font-size: 15px;
+            margin-right: 35px;
+            &:hover{
+                color: #de4644;
+            }
+        }
+        .menu_icon_2{
+            transition: 0.5s;
+            cursor: pointer;
+            i{
+                margin-right: 5px;
+            }
+            p{
+                font-weight: 500;
+            }
+            &:hover{
+                color: #de4644;
+            }
+        }
+    }
+}
+
+
+.nav_icon{
+    position: relative;
+}
+.inputtt {
+	width: 0px;
+	position: absolute;
+	right: 5px;
+	top: -13px;
+    transition: 0.5s;
+    border: 2px solid transparent;
+}
+.bg{
+    width: 200px;
+    border: 2px solid #222;
+}
+.nav_icon i{
+    position: absolute;
+    right: -23px;
+    top: 50%;
+    transform: translateY(-50%);
+}

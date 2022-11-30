@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Website</title>
+    <link href="https://fonts.cdnfonts.com/css/autograf-personal-use-only" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/icon.png"> 
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <!-- header Part Start -->
+ <header>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-1 border-end">
+             <div class="language">
+                <select name="language" id="language" class=" text-center">
+                    <option value="eng">Eng</option>
+                    <option value="ban">Ban</option>
+                    <option value="ger">Ger</option>
+                    <option value="hin">Hin</option>
+                    <option value="jap">Jap</option>
+                    <option value="chin">Chin</option>
+                  </select>
+             </div>
+            </div>
+            <div class="col-lg-1 border-end">
+                <div class="currency">
+                    <select name="Currency" id="Currency" class=" text-uppercase text-center">
+                        <option value="dollar">Usd <span>$</span></option>
+                        <option value="taka">taka <span>$</span></option>
+                        <option value="rupi">rupi <span>$</span></option>
+                        <option value="uwan">Uwan <span>$</span></option>
+                        <option value="yean">Yean <span>$</span></option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="toll_free">
+                    <p>Toll Free: +123 4567 8900</p>
+                </div>
+            </div>
+            <div class="col-lg-1 d-flex align-items-center offset-5 border-end justify-content-center">
+                <div class="wish">
+                    <i class="fa-solid fa-heart"></i>
+                    <a href="#">Wishlist</a>
+                </div>
+            </div>
+            <div class="col-lg-1 d-flex align-items-center border-end justify-content-center">
+                <div class="account d-flex align-items-center">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">My Account</a>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="log_reg">
+                    <a href="#">Log in</a>
+                    <a href="#">/Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
+ <!-- header Part End -->
+
+ <!-- Nav Part Start -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="images/logo.png" class="w-100" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accesorries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>                         
+        </ul>
+      </div>
+      <div class="menu_icon d-flex align-items-center">
+       <div class="nav_icon">
+        <input type="text" class="inputtt">
+        <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+        <div class="menu_icon_2 d-flex align-items-center">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p data-bs-toggle="modal" data-bs-target="#exampleModal">2 items</p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>hello</h2>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Nav Part End -->
+
+ <!-- banner Part start -->
+ <section id="banner">
+    <div class="ban_slide">
+        <i class="fa-solid fa-angle-left next"></i>
+        <i class="fa-solid fa-angle-right prev"></i>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="ban_main">
+                <div class="col-lg-6">
+                    <h1>2017</h1>
+                    <h2>Trendy Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <div class="bnr_btn">
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1>2017</h1>
+                    <h2>Trendy Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <div class="bnr_btn">
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1>2017</h1>
+                    <h2>Trendy Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <div class="bnr_btn">
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- banner Part End -->
+
+ <!-- detail Part start -->
+ <section id="detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 border-end">
+                <div class="detail-item">
+                    <div class="detail_icon d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-truck"></i>
+                        <h4>Free Shipping</h4>
+                    </div>
+                    <div class="detail_text text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border-end">
+                <div class="detail-item">
+                    <div class="detail_icon d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-life-ring"></i>
+                        <h4>24/7 Support</h4>
+                    </div>
+                    <div class="detail_text text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="detail-item">
+                    <div class="detail_icon d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <h4>Cashback</h4>
+                    </div>
+                    <div class="detail_text text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- detail Part End -->
+
+ <!-- Pro-Demo Part start -->
+ <section id="pro_demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="demo_item">
+                    <div class="demo_img">
+                        <img src="images/im1.png" class="w-100" alt="demo">
+                        <div class="demo_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="demo_over">
+                            <h3>New</h3>
+                            <h4>Jeans Shirt</h4>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo_item">
+                    <div class="demo_img">
+                        <img src="images/im2.png" class="w-100" alt="demo">
+                        <div class="demo_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="demo_over">
+                            <h3>2017</h3>
+                            <h4>Women’s Glass</h4>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo_item">
+                    <div class="demo_img">
+                        <img src="images/im3.png" class="w-100" alt="demo">
+                        <div class="demo_tag">
+                            <p>New</p>
+                        </div>
+                        <div class="demo_over">
+                            <h3>Best</h3>
+                            <h4>Mens Shirt</h4>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Pro-Demo Part End -->
+
+ <!-- Product Part start -->
+ <section id="product">
+    <div class="container">
+        <div class="row">
+            <div class="common_head text-center">
+                <h3>Featured Products</h3>
+            </div>
+        </div>
+        <div class="row pro_main">
+            <div class="btn_main">
+                <div class="col-lg-12">
+                    <div class="pro_btn text-center">
+                        <button>All</button>
+                        <button class="border-dark border-start border-end">Men</button>
+                        <button class="border-dark border-end">Women</button>
+                        <button class= "border-dark border-end">Children</button>
+                        <button>Accesorries</button>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="pro_item">
+                    <div class="pro_img">
+                        <img src="images/im4.png" class="w-100" alt="img">
+                        <div class="pro_over">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pro_text">
+                        <div class="pro_name d-flex justify-content-between align-items-center">
+                            <h6>Woolen T-Shirt</h6>
+                            <p>$ 99.00.</p>
+                        </div>
+                        <div class="pro_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="pro_item">
+                    <div class="pro_img">
+                        <img src="images/im5.png" class="w-100" alt="img">
+                        <div class="pro_over">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pro_text">
+                        <div class="pro_name d-flex justify-content-between align-items-center">
+                            <h6>Silk Skirt</h6>
+                            <p>$ 99.00.</p>
+                        </div>
+                        <div class="pro_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="pro_item">
+                    <div class="pro_img">
+                        <img src="images/im6.png" class="w-100" alt="img">
+                        <div class="pro_over">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pro_text">
+                        <div class="pro_name d-flex justify-content-between align-items-center">
+                            <h6>Woolen T-Shirt Ash</h6>
+                            <p>$ 99.00.</p>
+                        </div>
+                        <div class="pro_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="pro_item">
+                    <div class="pro_img">
+                        <img src="images/im7.png" class="w-100" alt="img">
+                        <div class="pro_over">
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pro_text">
+                        <div class="pro_name d-flex justify-content-between align-items-center">
+                            <h6>T-Shirt for Women</h6>
+                            <p>$ 99.00.</p>
+                        </div>
+                        <div class="pro_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Product Part End -->
+
+ <!-- Sruface Part start -->
+ <section id="surface">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="sur_img">
+                    <img src="images/bg1.png" class="w-100" alt="bg1">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="sur_text_main">
+                    <h6>New Product</h6>
+                    <h4>Microsoft Surface Pro</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It hasived not only five centuries, with the release of Letraset sheets.</p>
+                    <div class="main_count">
+                        <p id="demo1"></p>
+                        <p id="demo2"></p>
+                        <p id="demo3"></p>
+                        <p id="demo4"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Sruface Part End -->
+
+ <!-- Mobile Part Start -->
+ <section id="mobile">
+    <div class="mobile_slide">
+        <i class="fa-solid fa-angle-left nexxt"></i>
+        <i class="fa-solid fa-angle-right preev"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="common_head text-center">
+                <h3>Latest Products</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mobile_main">
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im8.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>Samsung-GTS</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im9.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>Samsung-Notebook</h6>
+                                <p>$ 199.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im10.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>iPhone-6sPlus</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im11.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>HTC-Bluray 35</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im8.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>Samsung-GTS</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im9.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>Samsung-Notebook</h6>
+                                <p>$ 199.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im10.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>iPhone-6sPlus</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mobile_item">
+                        <div class="mobile_img">
+                            <img src="images/im11.png" class="w-100" alt="img">
+                            <div class="mobile_over">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                                    <li><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile_text">
+                            <div class="mobile_name d-flex justify-content-between align-items-center">
+                                <h6>HTC-Bluray 35</h6>
+                                <p>$ 99.00.</p>
+                            </div>
+                            <div class="mobile_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Mobile Part End -->
+
+ <!-- testimonial Part start -->
+ <section id="testi">
+    <div class="container">
+        <div class="row">
+            <div class="common_head text-center">
+                <h3>Testimonial</h3>
+            </div>
+        </div>
+    </div>
+    <div class="testi_main">
+        <div class="testi_slider">
+            <i class="fa fa-chevron-right back" aria-hidden="true"></i>
+            <i class="fa fa-chevron-left move" aria-hidden="true"></i>
+        </div>
+       <div class="container">
+        <div class="row">
+            <div class="testi_container">
+                <div class="col-lg-6">
+                    <div class="testi_item d-flex">
+                        <div class="testi_img mt-2 text-center">
+                            <img src="images/user1.png" width="w-100" alt="user">
+                        </div>
+                        <div class="testi_text text-white">
+                            <h5>ASH Shakir</h5>
+                            <h6>Sketch Artist</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                            <div class="testi_sign text-end">
+                                <h5>Ash Shakir</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testi_item d-flex">
+                        <div class="testi_img mt-2">
+                            <img src="images/user2.png" width="w-100" alt="user">
+                        </div>
+                        <div class="testi_text text-white">
+                            <h5>Aminul Islam</h5>
+                            <h6>Software Developer</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                            <div class="testi_sign text-end">
+                                <h5>Aminul</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testi_item d-flex">
+                        <div class="testi_img mt-2">
+                            <img src="images/user1.png" width="w-100" alt="user">
+                        </div>
+                        <div class="testi_text text-white">
+                            <h5>Aminul Islam</h5>
+                            <h6>Software Developer</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                            <div class="testi_sign text-end">
+                                <h5>Aminul</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testi_item d-flex">
+                        <div class="testi_img mt-2">
+                            <img src="images/user2.png" width="w-100" alt="user">
+                        </div>
+                        <div class="testi_text text-white">
+                            <h5>Aminul Islam</h5>
+                            <h6>Software Developer</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and stry. Lorem sum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                            <div class="testi_sign text-end">
+                                <h5>Aminul</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+ </section>
+ <!-- testimonial Part End -->
+
+ <!-- Blog Part End -->
+ <section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="common_head text-center">
+                <h3>Our blog</h3>
+            </div>
+        </div>
+        <div class="row blog_main">
+            <div class="col-lg-4">
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="images/mi1.png" class="w-100" alt="m1">
+                        <div class="blog_over">
+                            <div class="blog_date d-flex align-items-center">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <p>26 October 2017</p>
+                            </div>
+                            <div class="blog_icon">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div class="blog_social_main d-flex justify-content-between align-items-center">
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <p>By: Admin</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    <p>2.5k Likes</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <p>1.5k Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_text">
+                        <h5>Best E-commerce I’d shopping yet</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                        <a href="#">Read More <span><i class="fa-solid fa-right-long"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="images/mi2.png" class="w-100" alt="m1">
+                        <div class="blog_over">
+                            <div class="blog_date d-flex align-items-center">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <p>26 October 2017</p>
+                            </div>
+                            <div class="blog_icon">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div class="blog_social_main d-flex justify-content-between align-items-center">
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <p>By: Admin</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    <p>2.5k Likes</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <p>1.5k Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_text">
+                        <h5>I’m satisfy with their services</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                        <a href="#">Read More <span><i class="fa-solid fa-right-long"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_item">
+                    <div class="blog_img">
+                        <img src="images/mi3.png" class="w-100" alt="m1">
+                        <div class="blog_over">
+                            <div class="blog_date d-flex align-items-center">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <p>26 October 2017</p>
+                            </div>
+                            <div class="blog_icon">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div class="blog_social_main d-flex justify-content-between align-items-center">
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <p>By: Admin</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    <p>2.5k Likes</p>
+                                </div>
+                                <div class="blog_social d-flex align-items-center">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <p>1.5k Comments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_text">
+                        <h5>I’ll never forget their hospitality</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                        <a href="#">Read More <span><i class="fa-solid fa-right-long"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Blog Part End -->
+
+ <!-- fpoter Part Start -->
+ <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer_logo">
+                    <img src="images/logo1.png" alt="">
+                </div>
+                <div class="footer_logo_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <span>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer_head">
+                    <h4>Contact us</h4>
+                </div>
+                <div class="footer_contact">
+                    <div class="footer_contact_list d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>1234, Parkstreet Avenue, NewYork</p>
+                    </div>
+                    <div class="footer_contact_list d-flex align-items-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+123 456 78900, +009 876 54321</p>
+                    </div>
+                    <div class="footer_contact_list d-flex align-items-center">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>info@e-buy.com, e-buy@info.com</p>
+                    </div>
+                    <div class="footer_contact_list d-flex align-items-center">
+                        <i class="fa-solid fa-earth-asia"></i>
+                        <p>www.e-buy.com, www.infobuy.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="footer_head">
+                    <h4>My Account</h4>
+                </div>
+                <div class="footer_link">
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Compare</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer_form_main">
+                    <div class="footer_head">
+                        <h4>Sign Up For Newsletter</h4>
+                    </div>
+                    <div class="footer_form d-flex align-items-center">
+                        <input type="text" placeholder="Your E-mail">
+                        <a href="#">Submit</a>
+                    </div>
+                    <div class="footer_head mt-4">
+                        <h4>Follow me on</h4>
+                    </div>
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last_footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="last_footer_text">
+                        <p>Copyright &copy; 2018. All right reserved by <span> E-BUY</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-5">
+                    <div class="last_footer_img text-end">
+                        <img src="images/cards.png" class="w-100" alt="cards">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+ <!-- footer Part End -->
+
+ <script src="js/jquery-1.12.4.min.js"></script>
+ <script src="js/slick.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/custom.js"></script>
+</body>
+</html>

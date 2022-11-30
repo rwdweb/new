@@ -1,0 +1,70 @@
+header{
+   background-color: #444444;
+    .col-lg-1{
+        padding: 0;
+    }
+    .col-lg-2{
+        padding: 0;
+    }
+    .language{
+        select{
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 14px;
+            padding: 13px 0;
+            font-weight: bold;
+        }
+    }
+    .currency{
+        select{
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 14px;
+            padding: 14px 0;
+            font-weight: bold;
+        }
+    }
+    .toll_free{
+        p{
+            font-size: 11px;
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            padding: 15px 0;
+        }
+    }
+    .wish{
+        i{
+            color: #fff;
+            font-size: 11px;
+            margin-top: 2px;
+        }
+        a{
+            color: #fff;
+            font-size: 11px;
+        }
+    }
+    .account{
+        i{
+            color: #fff;
+            font-size: 11px;
+            margin-right: 4px;
+            margin-top: px;
+        }
+        a{
+            color: #fff;
+            font-size: 11px;
+        } 
+    }
+    .log_reg{
+        a{
+            font-size: 11px;
+            color: #fff;
+            padding: 14px 0;
+            margin-left: 5px;
+        }
+    }
+}

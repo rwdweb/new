@@ -1,0 +1,97 @@
+#testi{
+    padding: 50px 0;
+    .testi_main{
+        margin-top: 60px;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.801)), url(../images/bg2.png) no-repeat center / cover;
+        padding: 60px 0 130px 0;
+        position: relative;
+        .testi_slider{
+            .move{
+                position: absolute;
+                content: '';
+                bottom: 3%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+                color: #fff;
+                font-size: 30px;
+                text-align: center;
+                line-height: 40px;
+                border: 1px solid #fff;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                    border: 1px solid transparent;
+                    background-color: #de4644;
+                    color: #fff;
+                }
+            }
+            .back{
+                position: absolute;
+                content: '';
+                bottom: 3%;
+                left: 51.8%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+                color: #fff;
+                font-size: 30px;
+                text-align: center;
+                line-height: 40px;
+                border: 1px solid #fff;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                    border: 1px solid transparent;
+                    background-color: #de4644;
+                    color: #fff;
+                }
+            }
+        }
+        .testi_item{
+            .testi_text{
+                margin-left: 30px;
+                h5{
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                h6{
+                    font-size: 16px;
+                    margin-bottom: 35px;
+                }
+                p{
+                    width: 390px;
+                    font-size: 14px;
+                    font-family: 'Open Sans', sans-serif;
+                    line-height: 24px;
+                }
+               .testi_sign{
+                h5{
+                    margin-top: 20px;
+                    font-size: 24px;
+                    font-family: 'Autograf PERSONAL USE ONLY', sans-serif;
+                }
+               }
+            }
+        }
+    }
+}

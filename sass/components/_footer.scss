@@ -1,0 +1,157 @@
+footer{
+    padding-top: 60px;
+    background-color: #353535;
+    .footer_logo_text{
+        p{
+            font-size: 14px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: #dddddd;
+        }
+        span{
+            color: #dddddd;
+            font-size: 14px;
+        }
+    }
+    .footer_head{
+        h4{
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #dddddd;
+            margin-bottom: 55px;
+        }
+    }
+    .footer_contact{
+        .footer_contact_list{
+            margin-bottom: 25px;
+            i{
+                margin-right: 20px;
+                font-size: 13px;
+                color: #dddddd;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                color: #dddddd;
+                font-size: 14px;
+            }
+        }
+    }
+    .footer_link{
+        ul{
+            margin-top: -5px;
+            li{ 
+                a{
+                    font-size: 14px;
+                    margin-bottom: 13px;
+                    color: #dddddd;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        color: #de4644;
+                        transform: translateX(8px);
+                        -webkit-transform: translateX(8px);
+                        -moz-transform: translateX(8px);
+                        -ms-transform: translateX(8px);
+                        -o-transform: translateX(8px);
+                    }
+                }
+            }
+        }
+    }
+    .footer_form_main{
+        .footer_form{
+            input{
+                width: 270px;
+                height: 40px;
+                padding-left: 10px;
+                border: 1px solid #ffffff;
+                border-right: none;
+                outline: none;
+                background-color: transparent;
+                &::placeholder{
+                    font-size: 14px;
+                    font-style: italic;
+                    color: #747474;
+                }
+                &:focus{
+                    border: 1px solid #de4644;
+                    border-right: none;
+                }
+            }
+            a{
+                width: 100px;
+                height: 40px;
+                background-color: #de4644;
+                text-align: center;
+                line-height: 38px;
+                font-size: 14px;
+                color: #fff;
+                text-transform: uppercase;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                border: 1px solid transparent;
+                &:hover{
+                    background: transparent;
+                    border: 1px solid #de4644;
+                    color: #de4644;
+                }
+            }
+        }
+    }
+    .footer_social{
+        ul{
+            display: flex;
+            margin-top: -19px;
+            li{
+                a{
+                    width: 40px;
+                    height: 40px;
+                    background-color: #fff;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    color: #222222;
+                    margin-right: 30px;
+                    font-size: 20px;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        color: #fff;
+                        background-color: #de4644;
+                        transform: scale(1.2);
+                        -webkit-transform: scale(1.2);
+                        -moz-transform: scale(1.2);
+                        -ms-transform: scale(1.2);
+                        -o-transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+    .last_footer{
+        padding: 15px 0 12px 0;
+        background-color: #555555;
+        .last_footer_text{
+            p{
+                font-size: 14px;
+                color: #dddddd;
+                span{
+                    color: #de4644;
+                }
+            }
+        }
+    }
+}

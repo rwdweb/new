@@ -1,0 +1,141 @@
+#mobile{
+    padding: 50px 0 100px 0;
+    position: relative;
+    .mobile_slide{
+        .nexxt{
+            position: absolute;
+            content: '';
+            bottom: 2.2%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid #000;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid transparent;
+                background-color: #de4644;
+                color: #fff;
+            }
+        }
+        .preev{
+            position: absolute;
+            content: '';
+            bottom: 2.2%;
+            left: 51.8%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid #000;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid transparent;
+                background-color: #de4644;
+                color: #fff;
+            }
+        }
+    }
+   .mobile_main{
+        .mobile_item{
+            width: 92%;
+            margin: 0 auto;
+            margin-top: 30px;
+            .mobile_img{
+                position: relative;
+                .mobile_over{
+                    position: absolute;
+                    width: 0px;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    background-color: #000;
+                    opacity: 0;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    ul{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+                        li{
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            border: 1px solid #fff;
+                            border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -ms-border-radius: 50%;
+                            -o-border-radius: 50%;
+                            margin-bottom: 30px;
+                            transition: 0.5s;
+                            -webkit-transition: 0.5s;
+                            -moz-transition: 0.5s;
+                            -ms-transition: 0.5s;
+                            -o-transition: 0.5s;
+                            &:hover{
+                                border: 1px solid transparent;
+                                background-color: #de4644;
+                            }
+                            a{
+                                font-size: 25px;
+                                color: #fff;
+                            }
+                        }
+                        :last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            &:hover .mobile_over{
+                width: 100px;
+                opacity: 1;
+            }
+            .mobile_text{
+                margin-top: 10px;
+                .mobile_icon{
+                    font-size: 14px;
+                    margin-top: 4px;
+                    color: #de4644;
+                }
+            }
+        }
+    }
+}

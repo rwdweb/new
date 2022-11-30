@@ -1,0 +1,35 @@
+.common_head{
+    h3{
+        font-size: 40px;
+        position: relative;
+        margin-bottom: 30px;
+        &::after{
+            position: absolute;
+            content: '';
+            bottom: -15px;
+            left: 42.7%;
+            transform: translate(-50%, -50%);
+            width: 170px;
+            height: 1px;
+            background-color: #de4644;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            bottom: -25px;
+            left: 38.99%;
+            transform: translate(-50%, -50%);
+            width: 85px;
+            height: 1px;
+            background-color: #de4644;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+        }
+    }
+}
